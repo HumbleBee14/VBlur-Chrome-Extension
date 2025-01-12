@@ -21,7 +21,7 @@ jobs:
           zip -r chrome-extension-${{ github.sha }}.zip . -x ".git*" ".github/*" "*.DS_Store"
 
       - name: Archive Chrome Extension Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: chrome-extension-${{ github.sha }}
           path: chrome-extension-${{ github.sha }}.zip
