@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "VBlur",
-  "version": "1.0.0",
-  "description": "Easily apply blur and fancy animated color overlays to videos on YouTube. Supports additional customization options also.",
+  "version": "1.1.0",
+  "description": "Video Blur & Color Overlay Extension: Easily apply blur and fancy animated color overlays to videos on YouTube. Supports additional customization options also.",
   "icons": {
     "16": "images/icons/icon16.png",
     "48": "images/icons/icon48.png",
