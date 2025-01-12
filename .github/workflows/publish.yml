@@ -28,7 +28,7 @@ jobs:
 
   upload-extension:
     name: Upload Chrome Extension to Web Store
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: build-chrome-extension
     env:
       EXTENSION_ID:  ${{ secrets.CHROME_EXTENSION_VBLUR_ID }} # Replace with your Chrome Extension ID
