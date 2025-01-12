@@ -1,0 +1,44 @@
+.custom-overlay {
+    animation: movingGradient 11s ease infinite;
+    background-size: 400% 400%;
+  }
+  
+/* Define the animation for the gradient colors */
+@keyframes movingGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  
+@keyframes fluidGradientRandom {
+  0% {
+    background-position: 0% 50%;
+  }
+  20% {
+    background-position: 30% 70%;
+  }
+  40% {
+    background-position: 80% 20%;
+  }
+  60% {
+    background-position: 50% 90%;
+  }
+  80% {
+    background-position: 10% 40%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
